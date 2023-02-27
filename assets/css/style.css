@@ -4,3 +4,15 @@ form {
    width: 50%;
    margin: auto;
 }
+
+#button {
+    width: 150px;
+    background-color: aquamarine;
+    margin: 10px auto;
+}
+
+#button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(46, 133, 104);
+}
