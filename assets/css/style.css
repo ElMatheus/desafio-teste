@@ -5,7 +5,12 @@ form {
    margin: auto;
 }
 
+input {
+    box-shadow: 2px 3px 0px 0px #000;
+}
+
 #button {
+    box-shadow: none;
     width: 150px;
     background-color: aquamarine;
     margin: 10px auto;
@@ -16,3 +21,10 @@ form {
     cursor: pointer;
     background-color: rgb(46, 133, 104);
 }
+
+input:focus {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+
